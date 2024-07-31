@@ -2,7 +2,7 @@ package exception.ex1;
 
 public class NetworkService1_2 {
     public void sendMessage(String data) {
-        NetworkClient1 client = new NetworkClient1("http://example.com");
+        NetworkClient1 client = new NetworkClient1("https://example.com");
         client.initError(data);
 
         String connectResult = client.connect();
