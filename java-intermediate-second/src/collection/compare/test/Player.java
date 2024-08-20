@@ -29,6 +29,7 @@ public class Player {
     }
 
     public void print() {
+        myCard.sort(null);
         System.out.println(this.name + "의 카드: " + myCard + ", 합계: " + getSumRank());
     }
 }
